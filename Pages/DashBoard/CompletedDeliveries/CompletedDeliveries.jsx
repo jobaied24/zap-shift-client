@@ -108,7 +108,7 @@ const cashoutMutation =useMutation({
 
                             {
                                 p.isCashed_out === true && 
-                                (<button className='badge badge-success badge-md' >cashed out</button>)
+                                (<button className='badge badge-error badge-md' >cashed out</button>)
                             }
                             </td>
                         </tr>)

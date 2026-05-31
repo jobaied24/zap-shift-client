@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router';
 
 
 const axiosInstance = axios.create({
-    baseURL:'http://localhost:5000'
+    baseURL:'https://zap-shift-server-rho-six.vercel.app'
 });
 
 const useAxiosSecure = () => {
